@@ -4,10 +4,10 @@ Depends: libc, kmod-sound-core, libpthread, librt
 License: LGPLv2.1 GPLv2
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 300337
+Installed-Size: 300365
 Filename: alsa-lib_1.1.6-1_aarch64_cortex-a53.ipk
-Size: 299015
-SHA256sum: 7b63ad833ac25aa4f450e295325d2ecf4122645f13610f3e2ecf2de225dd3bc6
+Size: 299079
+SHA256sum: 2761e060530d2f28af80f6fffb1a17bb93894cc0bfa9f31f7c9719c32e64e80d
 Description:  This is the library package for alsa, needed by some userspace programs.
  You must have enabled the ALSA support in the kernel.
 
@@ -17,10 +17,10 @@ Depends: libc, zlib, libstdcpp, libopenssl
 License: GPLv2
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 827971
+Installed-Size: 827973
 Filename: aria2_1.33.0-1_aarch64_cortex-a53.ipk
-Size: 828049
-SHA256sum: 83ed584ec5c1e34f66ecdbfeecff7f1400b0519a0d6c11886e891c4316b5386c
+Size: 828022
+SHA256sum: 86ddd073a81e708ae5747a3df211000fff6f6b6062bc96e33ba74be854be0f0a
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -30,10 +30,10 @@ Depends: libc, libattr
 License: LGPL-2.1 GPL-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 11681
+Installed-Size: 11686
 Filename: attr_20170915-1_aarch64_cortex-a53.ipk
-Size: 12460
-SHA256sum: 3f619fd9041925013991db320c81438549fed7330cd54eb59b55d56859e625e3
+Size: 12477
+SHA256sum: f0d5de7ffa6c6785fb1c077d069d253185b09b185df796d3e04e74adac0bcfd8
 Description:  Extended attributes support
  This package provides xattr manipulation utilities
  - attr
@@ -47,10 +47,10 @@ Provides: avahi-daemon
 License: LGPL-2.1-or-later
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 35539
+Installed-Size: 35543
 Filename: avahi-dbus-daemon_0.8-1_aarch64_cortex-a53.ipk
-Size: 36710
-SHA256sum: 3c004379a312e27c7b09786e774eaa89e673c6eb57a218a5e30e27b497e61ec5
+Size: 36705
+SHA256sum: 28f6389eca48749595e9cdf3f0385fc64d1d99374d834b265999394646bdb124
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -69,10 +69,10 @@ Depends: libc, libncurses, libreadline
 License: GPL-3.0+
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 297950
+Installed-Size: 297951
 Filename: bash_4.4.18-2_aarch64_cortex-a53.ipk
-Size: 298299
-SHA256sum: 956aa8d53656eb52f41829b3a56a486841c9a31d6137d861f9eda21a1144a591
+Size: 298301
+SHA256sum: 4460735c6bb9372672cb82d20f07f7a97276661fd031f4c7f7bc4eed6d78c1fa
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
@@ -83,10 +83,10 @@ Depends: libc, libstdcpp, libpthread, librt, boost-system
 License: Boost Software License <http://www.boost.org/users/license.html>
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 7701
+Installed-Size: 7703
 Filename: boost-chrono_1.68.0-6_aarch64_cortex-a53.ipk
 Size: 8508
-SHA256sum: 3229b6e49d6dd5f033faa224f84588fb75027cc724912d6519a78ef9658940a1
+SHA256sum: 380e6a9ce9e60fd9dffd2d6ec9bb10ad4b6f413bc22164a1f2a000f4eaa2e967
 Description:  This package contains the Boost chrono library.
 
 Package: boost-random
@@ -95,10 +95,10 @@ Depends: libc, libstdcpp, libpthread, librt, boost-system
 License: Boost Software License <http://www.boost.org/users/license.html>
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 7252
+Installed-Size: 7253
 Filename: boost-random_1.68.0-6_aarch64_cortex-a53.ipk
-Size: 8087
-SHA256sum: 2547d2f65bb980cde3817474c1798c85072ed0bd14166cdabcdbb74db234c413
+Size: 8089
+SHA256sum: 891cfe44e7b6e2a266ad407969f944f89819dd2859b9ae221033892e8b3b5992
 Description:  This package contains the Boost random library.
 
 Package: boost-system
@@ -107,10 +107,10 @@ Depends: libc, libstdcpp, libpthread, librt
 License: Boost Software License <http://www.boost.org/users/license.html>
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 4589
+Installed-Size: 4593
 Filename: boost-system_1.68.0-6_aarch64_cortex-a53.ipk
-Size: 5379
-SHA256sum: 1099f2a7d18e40948d55a07ff9815d5f01f13ad72c545d5f98fd5c37c60d89e2
+Size: 5391
+SHA256sum: 74614245c2d2bfd2b9d0a008d6723a3829ab0ed4d882bc7cabe9449e15348378
 Description:  This package contains the Boost system library.
 
 Package: boost
@@ -121,8 +121,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 104
 Filename: boost_1.68.0-6_aarch64_cortex-a53.ipk
-Size: 1457
-SHA256sum: dc42d0d080085038e2940079da30fae100712fd2f59fdd2e887176ffc47ff841
+Size: 1458
+SHA256sum: 34a5642369c855ee493608f6170bef381c5e3c252fffa72d38cfff94260f40c9
 Description:  This package provides the Boost v1.68.0 libraries.
  Boost is a set of free, peer-reviewed, portable C++ source libraries.
  
@@ -178,10 +178,10 @@ Depends: libc, libattr, libuuid, zlib, libblkid, liblzo, libpthread
 License: GPL-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 2056927
+Installed-Size: 2056953
 Filename: btrfs-progs_4.15.1-1_aarch64_cortex-a53.ipk
-Size: 2056251
-SHA256sum: 45f1f89bf3c9dff366633498a4a275f7b1c8e96836ab0a63b74d987227a799f5
+Size: 2056274
+SHA256sum: 73db228b411157098c345381a41a27b02ec57d79f3aedaeffc0f92a16d479583
 Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
  advanced features while focusing on fault tolerance, repair and easy
  administration. Initially developed by Oracle, Btrfs is licensed under the
@@ -193,10 +193,10 @@ Depends: libc
 License: ISC
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 16841
+Installed-Size: 16843
 Filename: confuse_3.2.1-1_aarch64_cortex-a53.ipk
-Size: 17883
-SHA256sum: bb31040c7c5998e615a199c467986495d65fbca5dd07d3635dbb9649a7aa092d
+Size: 17900
+SHA256sum: 0ef7bcdfa82d296b683974095d0b61ebc3ec1010e3cef94c0db1b6485252cf4e
 Description:  libConfuse is a configuration file parser library, licensed under the
  terms of the ISC license, and written in C. It supports sections and
  (lists of) values (strings, integers, floats, booleans or other
@@ -216,10 +216,10 @@ Depends: libc, libexpat, libdbus
 License: AFL-2.1
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 91514
+Installed-Size: 91523
 Filename: dbus_1.10.4-1_aarch64_cortex-a53.ipk
-Size: 91974
-SHA256sum: c58ba917808cdd2cbe4a0338a55d615b66e63bf558eb07c50ef38eff8ee98c01
+Size: 92022
+SHA256sum: d96d773b3b9807b14feff603fa0658d350b99f2b121aeceaee7e486f5d7ff9dc
 Description:  Simple interprocess messaging system (daemon)
 
 Package: dosfstools
@@ -228,10 +228,10 @@ Depends: libc
 License: GPL-3.0+
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 60444
+Installed-Size: 60448
 Filename: dosfstools_4.1-3_aarch64_cortex-a53.ipk
-Size: 59808
-SHA256sum: d588e994fff504449071323b6947ae7773132f46901d09de4d849b796f700b85
+Size: 59734
+SHA256sum: 4883516ae97e6ccd8fc1d3bbb9d0c40c2074008e4b919f93a1e0381e70676e75
 Description:  The dosfstools package includes the mkfs.fat and fsck.fat utilities, which respectively make and check MS-DOS FAT filesystems.
 
 Package: forked-daapd
@@ -240,10 +240,10 @@ Depends: libc, libgpg-error, libgcrypt, libgdbm, zlib, libexpat, libunistring, l
 License: GPL-2.0
 Section: sound
 Architecture: aarch64_cortex-a53
-Installed-Size: 4847713
+Installed-Size: 4847698
 Filename: forked-daapd_27.2-3_aarch64_cortex-a53.ipk
-Size: 4842753
-SHA256sum: ad2dd0695c42387fe794505103f5bee422224e788e1a1d3d9eddd846766c5c2a
+Size: 4846501
+SHA256sum: 9a04d08d84e8192263d4ad1a7b0fa03b3c5e7d6e198dfa7f9a8fb6410cd5c35c
 Description:  forked-daapd is a Linux/FreeBSD DAAP (iTunes), MPD (Music Player Daemon) and
  RSP (Roku) media server. It has support for AirPlay speakers, Chromecast,
  Apple Remote (and compatibles), MPD clients, internet radio and LastFM. It
@@ -254,10 +254,10 @@ Version: 2.58.1-2
 Depends: libc, zlib, libpthread, libffi, libattr
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 929533
+Installed-Size: 929531
 Filename: glib2_2.58.1-2_aarch64_cortex-a53.ipk
-Size: 926304
-SHA256sum: 548b5347dd34632aa52981e12949f18e67b8e512aa86d0522fa9a86c5c8bb2c8
+Size: 926302
+SHA256sum: 969446cd2b783c420a0793660cdfc7f17726f1de7b5fbc44900886cda23c6cb2
 Description:  The GLib library of C routines
 
 Package: hd-idle
@@ -268,8 +268,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 4661
 Filename: hd-idle_1.05-1_aarch64_cortex-a53.ipk
-Size: 5431
-SHA256sum: c983f7a3e9451c6ddd80280f3441177aa147c1c7ccdc28c72cc9b2e8685e4699
+Size: 5436
+SHA256sum: d60c9886d283196e42387e5ab5261c443e5ae5fd45415227eb684385306a47e7
 Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
 
 Package: icu
@@ -278,10 +278,10 @@ Depends: libc, libstdcpp, libpthread
 License: ICU-1.8.1+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 1679367
+Installed-Size: 1679511
 Filename: icu_61.2-5_aarch64_cortex-a53.ipk
-Size: 1669609
-SHA256sum: 8e1921154d5278b5f5511f6706976acc97b9fd70d5e9675fff8441897e9b31e1
+Size: 1669902
+SHA256sum: d6918d2f884e5c9a6968fd76f1413d1b0506f4b5c58e01a708109020e4392469
 Description:  International Components for Unicode
 
 Package: lame-lib
@@ -292,8 +292,8 @@ Section: sound
 Architecture: aarch64_cortex-a53
 Installed-Size: 117188
 Filename: lame-lib_3.100-1_aarch64_cortex-a53.ipk
-Size: 117959
-SHA256sum: a69abdd541918f3c7bc9ed237f8ed75e1b4f0fae9208b8ea7c0b0f47fb804651
+Size: 117960
+SHA256sum: e6710907b16a20b10331d25699da4e29f6fd6e05b18ad20b79af2e6db2458579
 Description:  lame mp3 encoder libs
 
 Package: libaio
@@ -302,10 +302,10 @@ Depends: libc
 License: LGPL-2.1-only
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 1654
+Installed-Size: 1657
 Filename: libaio_0.3.112-1_aarch64_cortex-a53.ipk
-Size: 2414
-SHA256sum: 75740a2ae6ed2a0ec145e92a67be38a21c39109d40938d6f9eac25a6ff0e73b0
+Size: 2423
+SHA256sum: 65397a6114e6c33ab513d83a59e91899b24443cb43cdc0d687a5d519736228a5
 Description:  Linux kernel AIO interface access library
 
 Package: libantlr3c
@@ -314,10 +314,10 @@ Depends: libc
 License: BSD-2-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 32458
+Installed-Size: 32462
 Filename: libantlr3c_3.2-1_aarch64_cortex-a53.ipk
-Size: 33356
-SHA256sum: ec748152b917624bb93f93a11c4a6fa76b97caf7608c3e0ce9a8622460463974
+Size: 33370
+SHA256sum: 4d7b4442e2e88ab61fb43d02160a703648b8be8e35ea3ff566e7ce9b52a502cb
 Description:  ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers,
  interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages.
 
@@ -327,10 +327,10 @@ Depends: libc
 License: LGPL-2.1 GPL-2.0
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 5783
+Installed-Size: 5784
 Filename: libattr_20170915-1_aarch64_cortex-a53.ipk
-Size: 6536
-SHA256sum: 007e98f7235759697f39e72508631b6d2579a87fe3bbfbcf92ce2f0f1baa63d0
+Size: 6551
+SHA256sum: 6027fedf51a49cceeaf605e8731c5bb2df9b3c61e7aad8390658f927dbbbc3bd
 Description:  Extended attributes support
  This package provides libattr
 
@@ -340,10 +340,10 @@ Depends: libc, avahi-dbus-daemon
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 16663
+Installed-Size: 16665
 Filename: libavahi-client_0.8-1_aarch64_cortex-a53.ipk
-Size: 17793
-SHA256sum: 2fca6b4cc434fa42a347174b96d324603741c02d1e5b34754336f23bc69f41e9
+Size: 17794
+SHA256sum: ed491c70f938b1f67638f002446ab12db0b1ef57e436309ff472347ba64333fc
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -368,8 +368,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 67726
 Filename: libavahi-dbus-support_0.8-1_aarch64_cortex-a53.ipk
-Size: 68968
-SHA256sum: f132bb72bc30edc1e146c6dcff2560afd3a1686ce1e917cdc74cae39b34ece2d
+Size: 68981
+SHA256sum: c0fa72ec998f58e4c7a4c1d0f099a805a88d7bb91362345d550c99866180d30b
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -401,10 +401,10 @@ Depends: libc
 License: GPL-2.0
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 5961
+Installed-Size: 5963
 Filename: libcap_2.25-2_aarch64_cortex-a53.ipk
-Size: 6658
-SHA256sum: e79b66d6db7de93348fe39a6ad45185b793a066d9ef46a0917212bfd53720452
+Size: 6672
+SHA256sum: 91bc43abd8ab04e0909b4da32b141a0c102fbd0bf910453d789f49fa1ef72ce3
 Description:  Linux capabilities library
 
 Package: libdaemon
@@ -414,8 +414,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 8439
 Filename: libdaemon_0.14-5_aarch64_cortex-a53.ipk
-Size: 9497
-SHA256sum: 6011d33d65296c9dca3b4968925f30742bad111db910334f2a8572a9766cade3
+Size: 9491
+SHA256sum: a76b94df54a63b3a2e3091d9108f7e9646da6bcf8f5dfbe4fb37cb4487995fa1
 Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
  It consists of the following parts:
  - A wrapper around fork() which does the correct daemonization procedure of a process
@@ -434,10 +434,10 @@ Provides: libdb47-full
 License: Sleepycat
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 511046
+Installed-Size: 511047
 Filename: libdb47_4.7.25.4.NC-5_aarch64_cortex-a53.ipk
-Size: 509502
-SHA256sum: ba2fcf4197d9a356bc10c702e1cd59630c45054499be53d7e4238a42d49a0efb
+Size: 509504
+SHA256sum: 29d3c8d0c70bf737f57ed63e5736280feb8782dd1ae56ab9c674458d5afc842f
 Description:  Berkeley DB library (4.7).
 
 Package: libdbus
@@ -446,11 +446,24 @@ Depends: libc, libpthread
 License: AFL-2.1
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 105178
+Installed-Size: 105179
 Filename: libdbus_1.10.4-1_aarch64_cortex-a53.ipk
-Size: 105905
-SHA256sum: ba8976d2d62d90227643f889848cdb2ef53b4b254c674c7843c8ddf435924432
+Size: 105912
+SHA256sum: b131816ff3e5949b6dc180c2b8e1b72766a6f6e5333f48569eba81d94a11455b
 Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.02.177-1
+Depends: libc, kmod-dm, libpthread, libuuid, librt
+License: GPL-2.0 LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 114876
+Filename: libdevmapper_2.02.177-1_aarch64_cortex-a53.ipk
+Size: 115611
+SHA256sum: b2fad3bf23ddc9164ecf2be2c3ca6e62276638b57b5a9f3671258171a650be2e
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
 
 Package: libdouble-conversion
 Version: 3.1.4-1
@@ -458,10 +471,10 @@ Depends: libc, libstdcpp
 License: BSD-3c
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 63657
+Installed-Size: 63661
 Filename: libdouble-conversion_3.1.4-1_aarch64_cortex-a53.ipk
-Size: 52451
-SHA256sum: 8962a78ed5be1121e5c5adb1ce10afb51b3b182c56e4b9525dde3665cf7c9b79
+Size: 64307
+SHA256sum: 79f04591bef1cb49f439af3b361a511ab6e10dabac6bab7ad56c644da4e61bd2
 Description:  double-conversion provides binary-decimal and decimal-binary routines for IEEE doubles.
  
  The library consists of efficient conversion routines that have been extracted
@@ -474,10 +487,10 @@ Depends: libc, libncurses
 License: BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 65462
+Installed-Size: 65461
 Filename: libedit_20170329-3.1-1_aarch64_cortex-a53.ipk
-Size: 66148
-SHA256sum: 46bc70326d1bfe484d978c331378aba47bc226d785ff1f68550a7e93bc76959d
+Size: 66183
+SHA256sum: 16cba3ef610dfc0a5c0326d398b9d0f7559a2aa22bfb70c2fc3570664b746d62
 Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
 
 Package: libexif
@@ -486,10 +499,10 @@ Depends: libc
 License: LGPL-2.1
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 68474
+Installed-Size: 68477
 Filename: libexif_0.6.21-1_aarch64_cortex-a53.ipk
-Size: 68846
-SHA256sum: 0dd74fbe8f9fd1b9f1b70225d141b686386d2c0f1952f349283deae76b4e6460
+Size: 68879
+SHA256sum: 72f05f722685bd60d6148e882e8069fab9625c5de27cc591b26bc91740f42840
 Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
  intended to replace lots of redundant implementations in command-line
  utilities and programs with GUIs.
@@ -500,10 +513,10 @@ Depends: libc
 License: MIT
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 50686
+Installed-Size: 50687
 Filename: libexpat_2.2.9-1_aarch64_cortex-a53.ipk
-Size: 51416
-SHA256sum: ded91c10b152f44b97ab7448d20a7b068ef993fb92b17151264d0f009c387662
+Size: 51402
+SHA256sum: 4f1f0170a9f92952cfe463a8bf4d0d6baf6494eec1f1b56eba8c4ddd2c6ab6ab
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
@@ -512,10 +525,10 @@ Depends: libc
 License: MIT
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 6579
+Installed-Size: 6581
 Filename: libffi_3.2.1-3_aarch64_cortex-a53.ipk
-Size: 7647
-SHA256sum: 43aadbc4b067d4f58b5b4ae46033935842e168de8a3a9fb56a1334de2374afd7
+Size: 7646
+SHA256sum: c16f9d6287e84f909c5e30f407b1286313342f947b2e2859bb55166681a62612
 Description:  The libffi library provides a portable, high level programming interface to
  various calling conventions. This allows a programmer to call any function
  specified by a call interface description at run-time.
@@ -534,10 +547,10 @@ Provides: libffmpeg
 License: LGPL-2.1+ GPL-2+ LGPL-3
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 5023374
+Installed-Size: 5023373
 Filename: libffmpeg-full_3.2.12-3_aarch64_cortex-a53.ipk
-Size: 5004242
-SHA256sum: 49379d419c79ef229bcd818e21de168b6779b89091e898e75d75a5c01ee51133
+Size: 5004124
+SHA256sum: f0806ea673dd40454ecacd5bf060522416c7a98ca94e7560caaf613aff5855c2
 Description:  FFmpeg is a a software package that can record, convert and stream digital
  audio and video in numerous formats.
  
@@ -553,10 +566,10 @@ Depends: libc
 License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 77774
+Installed-Size: 77778
 Filename: libflac_1.3.2-1_aarch64_cortex-a53.ipk
-Size: 78489
-SHA256sum: 9b75a789818b56a6af078a4f138c007615077a2d8323b60005616d0661f6cc25
+Size: 78502
+SHA256sum: c2233ce1d919de219ac5c0d5aed6c8a69886002b2e7aa55f11d31c0bf983e861
 Description:  Free Lossless Audio Codec library
 
 Package: libgcrypt
@@ -565,10 +578,10 @@ Depends: libc, libgpg-error
 License: LGPL-2.1+ GPL-2.0+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 282055
+Installed-Size: 282057
 Filename: libgcrypt_1.6.6-3_aarch64_cortex-a53.ipk
-Size: 281686
-SHA256sum: ab8ddc1f3a26a1eb1b4149395404c93d1649cf75d5d6066a96c172b82c832de6
+Size: 281721
+SHA256sum: c0307f820ab22d7d35ff65d34f43eb3a821b2c4ce785c27b26818b95e512f2b8
 Description:  This is a general purpose cryptographic library based on the code from
  GnuPG. It provides functions for all cryptograhic building blocks:
  symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
@@ -584,10 +597,10 @@ Depends: libc, libjpeg, libpng
 License: MIT
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 91257
+Installed-Size: 91264
 Filename: libgd_2.2.5-2_aarch64_cortex-a53.ipk
-Size: 91504
-SHA256sum: 218b42748262e734fd9e5a2eaf7777cfc09ea77dc17efcf802d0116027028608
+Size: 91471
+SHA256sum: 24ed86e02c0905ff6db3dd2ab4a99083db86e448e2b06e092e5a6ef5293dad82
 Description:  GD is an open source code library for the dynamic creation of images by
  programmers. GD creates PNG, JPEG and GIF images, among other formats.
 
@@ -597,10 +610,10 @@ Depends: libc
 License: GPL-3.0+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 15578
+Installed-Size: 15581
 Filename: libgdbm_1.11-1_aarch64_cortex-a53.ipk
 Size: 16369
-SHA256sum: aec8931af3ca11de77243118227440aa4e42c75fa9b0a6840aa9d0ea61415b7f
+SHA256sum: e4b0eb04ac61e37afa6739a25f5ef258e3a0c48463e504e4f4fa8ff9212ba955
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -611,10 +624,10 @@ Depends: libc, libnettle, libgmp
 License: LGPLv2.1+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 453999
+Installed-Size: 454003
 Filename: libgnutls_3.5.19-1_aarch64_cortex-a53.ipk
-Size: 453746
-SHA256sum: 99bd64622aa8f05e76dcfcd2720996ef7b51ea30d1ef64149adaf8e863c633f6
+Size: 453749
+SHA256sum: 0d00c0e3791310c82522a39e3dd62432826b8a830b6e6f0c4ecf4bbaecb0218e
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -629,10 +642,10 @@ Depends: libc
 License: LGPL-2.1+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 5063
+Installed-Size: 5065
 Filename: libgpg-error_1.12-1_aarch64_cortex-a53.ipk
-Size: 5942
-SHA256sum: 38ce34929cdf736d4c8b7dd4c85daf7cafe566b36c4a40d8cd81a3ffb042b3f4
+Size: 5945
+SHA256sum: 88de5ec55cf8136ce956cfec02ebf56c1c8bac983ce971513f8303f678842ed6
 Description:  An helper library for common error codes and descriptions.
  This is a library that defines common error values for all GnuPG
  components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
@@ -647,8 +660,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 26673
 Filename: libid3tag_0.15.1b-4_aarch64_cortex-a53.ipk
-Size: 27320
-SHA256sum: f4b73bd6f5c657fa430563407fec2f156b2a0704aaae69d4c2f47e75e0afb4a2
+Size: 27326
+SHA256sum: 5159262c82f77d0ad626bd8c725fd70dcaea0e85f22e8218786cdac2bfa3c7ab
 Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
  ID3v1 and the various versions of ID3v2.
 
@@ -658,10 +671,10 @@ Depends: libc
 License: IJG
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 93887
+Installed-Size: 93888
 Filename: libjpeg_9a-1_aarch64_cortex-a53.ipk
-Size: 94657
-SHA256sum: 7b9ba977d9f0c0bc8006754019835248abef09f4b222b94c63d399ac409f42b7
+Size: 94653
+SHA256sum: 458bbc7a11e38aa2b569d5267a12fe27292fae96f7c5d6f6ec17e6167237dc7d
 Description:  The Independent JPEG Group's JPEG runtime library
 
 Package: libminiupnpc
@@ -669,10 +682,10 @@ Version: 2.0.20170509-1
 Depends: libc
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 19109
+Installed-Size: 19110
 Filename: libminiupnpc_2.0.20170509-1_aarch64_cortex-a53.ipk
-Size: 19824
-SHA256sum: 9fafd4610c131c2159049f511c72c0985e8324b1b7fb90cc53fa76570f5e1fb3
+Size: 19830
+SHA256sum: 87e9700e25a2d217bbcdedb9f2b0ad2206e4d0e68bd4444d916baad25c11f79c
 Description:  Lightweight UPnP library
 
 Package: libnatpmp
@@ -681,10 +694,10 @@ Depends: libc
 License: BSD-3c
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 3228
+Installed-Size: 3230
 Filename: libnatpmp_20150609-1_aarch64_cortex-a53.ipk
-Size: 4114
-SHA256sum: fca87954fc197f1b3c93ec10b5484004b6800f11ac20ef4e1545ff827740ada4
+Size: 4118
+SHA256sum: e8dcf678360e60c68f53e5fc6c0d01eef133d04798da7d704ce35b17a7d8b2b8
 Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
  of the protocol for the client side. It is based on non blocking sockets and
  all calls of the API are asynchronous. It is therefore very easy to integrate
@@ -697,10 +710,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 8558
+Installed-Size: 8560
 Filename: libogg_1.3.2-2_aarch64_cortex-a53.ipk
-Size: 9452
-SHA256sum: 536a33c5e50b1c9f4c6923c86f935566ef8fb170e97967608e4849d4dd32adc1
+Size: 9462
+SHA256sum: 983e41b331f1bbd4445362413701487ddc55d816564397afa1890dd2b480c77b
 Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
  compressed bitstream into a more robust, useful form.  For example,
  the Ogg bitstream makes seeking, time stamping and error recovery
@@ -712,10 +725,10 @@ Version: 1.2.0-2
 Depends: libc
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 167920
+Installed-Size: 167925
 Filename: libpam_1.2.0-2_aarch64_cortex-a53.ipk
-Size: 168262
-SHA256sum: ba8682cfadd8f1c8532281ee1328f248d02cee2abded313f8f30adc7722e3c93
+Size: 168234
+SHA256sum: 4b5d0752d6e37265b1a7e86a603d469fefe0af570941bbcca66523709e64ab07
 Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpcre2-16
@@ -724,10 +737,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 88441
+Installed-Size: 88442
 Filename: libpcre2-16_10.30-1_aarch64_cortex-a53.ipk
-Size: 89234
-SHA256sum: 39b5d2985a94ae99b9c8b2315ef0fe8fa7a53b4bd29472d1a5483357e7f536d4
+Size: 89252
+SHA256sum: 8ed36290de974d60bdef8914bfd707c2e541481e18e09f754acfe703546b0073
 Description:  A Perl Compatible Regular Expression library (16bit support)
 
 Package: libpcre
@@ -736,10 +749,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 77867
+Installed-Size: 77862
 Filename: libpcre_8.41-2_aarch64_cortex-a53.ipk
-Size: 78667
-SHA256sum: 92dc2c4ed71899004d88cfd40f4236204fc36be0cb0a0083414cbe3d985e72ed
+Size: 78664
+SHA256sum: 930188116b14f3f82eaff12f9395c89090d6d7d3fbc51c6a22c5805524b3fb0d
 Description:  A Perl Compatible Regular Expression library
 
 Package: libplist
@@ -748,10 +761,10 @@ Depends: libc, libxml2
 License: LGPL-2.1+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 21046
+Installed-Size: 21050
 Filename: libplist_2.0.0-3_aarch64_cortex-a53.ipk
-Size: 21829
-SHA256sum: 7964bcab5df217a698ecfb4238b641517ccab9020d0dd9bbe2c173e15df0f467
+Size: 21827
+SHA256sum: 7913a921584244cde6f52ca803f0a6a68d5e2d158cf3acc87e43f048671bbdf4
 Description:  A library to handle Apple Property List format whereas it's binary or XML
 
 Package: libpng
@@ -762,8 +775,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 84051
 Filename: libpng_1.6.34-1_aarch64_cortex-a53.ipk
-Size: 84832
-SHA256sum: 91f5634510cf5a26f3d395f8d365f0ac811635f7eaa97e91744bcf6381271ccd
+Size: 84840
+SHA256sum: 668db0529f8772f1e718f1c611eea06d1978a447b348b43a186e6b6126b422fc
 Description:  A PNG format files handling library
 
 Package: libprotobuf-c
@@ -772,10 +785,10 @@ Depends: libc
 License: BSD-2c
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 10523
+Installed-Size: 10525
 Filename: libprotobuf-c_v1.2.1_aarch64_cortex-a53.ipk
 Size: 11378
-SHA256sum: 968b01351d6e3ecbada374301e7c5bd4311c9600d0a791db43540c0da7c23509
+SHA256sum: fc27977a2e1ea6c8e21bf78a59023e864154d591e26dd085d12a76ea33f66474
 Description:  Runtime library to use Google Protocol Buffers from C applications.
  Protocol Buffers are a way of encoding structured data in an efficient yet
  extensible format. Google uses Protocol Buffers for almost all of its
@@ -789,8 +802,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 86724
 Filename: libsodium_1.0.16-1_aarch64_cortex-a53.ipk
-Size: 87837
-SHA256sum: ae5ec59ee78c5cebd4c872429236843ae20303cca709a15322c35cafdce0f02f
+Size: 87844
+SHA256sum: 774688132395bb591e645e525d940cac416ec5267ce192af8b3b870c840766d8
 Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
  NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
  Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
@@ -804,10 +817,10 @@ Depends: libc, libpthread, zlib
 License: PUBLICDOMAIN
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 458950
+Installed-Size: 458951
 Filename: libsqlite3_3320100-1_aarch64_cortex-a53.ipk
 Size: 459620
-SHA256sum: 1afb07903943663e29333938286c074d639a619d1ead21679e4abeb29d431211
+SHA256sum: ed517c04eca8d87899a3b455757ad55d4a66d2593721d10d63487d18188a24a3
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
@@ -819,10 +832,10 @@ Depends: libc
 License: LGPLv2.1+
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 29150
+Installed-Size: 29153
 Filename: libtasn1_4.12-2_aarch64_cortex-a53.ipk
-Size: 29915
-SHA256sum: 89dbf73f39a35139b011afd9598f4662b2bcae91417b071e773f427de2d6d633
+Size: 29911
+SHA256sum: adf71ad3e803e7c2a963725bf5993e5a97fe296ea7ff73fb57c395408f5c95ee
 Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
  Distinguish Encoding Rules (DER) manipulation.
 
@@ -832,10 +845,10 @@ Depends: libc, libpthread
 License: BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 56628
+Installed-Size: 56631
 Filename: libtirpc_1.2.6-1_aarch64_cortex-a53.ipk
-Size: 57405
-SHA256sum: 0de993b647f0bbd6b45a7bcc1b726c93fd21a4458b8a512b8f9754181b486a8c
+Size: 57416
+SHA256sum: fd482a86c3c1e37c07807b3a394c1c817700abe8ad267341c67d0b8de3cc3085
 Description:  Library TI RPC for RPC bindings
 
 Package: libunistring
@@ -844,10 +857,10 @@ Depends: libc
 License: GPL-3.0
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 583474
+Installed-Size: 583471
 Filename: libunistring_0.9.8-1_aarch64_cortex-a53.ipk
-Size: 574583
-SHA256sum: 6c0fc8b77236541faa05bef24f7572ccde3b84854a36671852b64980067dcad5
+Size: 574802
+SHA256sum: 0502249486c45906aaa566eb9e8771209b35ce4df5d3814277377ffcf5e62402
 Description:  This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.
 
 Package: libuv
@@ -857,8 +870,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 54334
 Filename: libuv_1.19.2-1_aarch64_cortex-a53.ipk
-Size: 55094
-SHA256sum: 3a343a6f3c2d5238daa6b58707b1584f8fabc83fb7fb29cd87773267c560e923
+Size: 55097
+SHA256sum: 60bf7b727c175239c6ed10f83a5a6f7284800cc029e60ab8dcffe95e31c90567
 Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
  was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
  pyuv, and others.
@@ -869,10 +882,10 @@ Depends: libc, libogg
 License: BSD-3-Clause
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 192105
+Installed-Size: 192103
 Filename: libvorbis_1.3.6-1_aarch64_cortex-a53.ipk
-Size: 191758
-SHA256sum: eaeca1df4ebf154040759555ff6cfa3e6b37db69a939f22eb3e891602f387c0b
+Size: 191763
+SHA256sum: 222c941bbbe8f8b60f3f0c77043545044700ed59eda072a70f400609ac9d01cd
 Description:  Vorbis is a general purpose audio and music encoding format
  contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
  MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
@@ -889,10 +902,10 @@ Provides: libwebsockets
 License: LGPL-2.1+exception
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 83193
+Installed-Size: 83197
 Filename: libwebsockets-full_2.4.1-2_aarch64_cortex-a53.ipk
 Size: 84015
-SHA256sum: 54ccece9d1ae5fdb864cd6f38732ba24ec5003b305083ca5df4586c5b639d586
+SHA256sum: f0d06862508483bd094858a18a19c187bf075698e7f918c989d741220b1b610e
 Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
 
 Package: libwrap
@@ -903,8 +916,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 10943
 Filename: libwrap_7.6-1_aarch64_cortex-a53.ipk
-Size: 11646
-SHA256sum: 6f18f954425af3e743845676e9d062f5d01bd7de20a1ff98fd342edc2ffedfde
+Size: 11647
+SHA256sum: 65c736c840535a040614265afd1343ca9ff4c34cb11cb1b8d93371e35bdced86
 Description:  Security wrapper library for TCP services
 
 Package: libxml2
@@ -913,10 +926,10 @@ Depends: libc, libpthread, zlib
 License: MIT
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 445777
+Installed-Size: 445779
 Filename: libxml2_2.9.9-1_aarch64_cortex-a53.ipk
-Size: 445010
-SHA256sum: c2c2d027fced6db834c18a6160132f10bff0ff75c92f14893f2d8a449450d268
+Size: 445050
+SHA256sum: 0ead929a11eb12b4fc03655dcefc20d5dd19c30322ad70d6e14cd8a3160ae53d
 Description:  A library for manipulating XML and HTML resources.
 
 Package: minidlna
@@ -925,10 +938,10 @@ Depends: libc, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, l
 License: GPL-2.0-or-later BSD-3-Clause
 Section: multimedia
 Architecture: aarch64_cortex-a53
-Installed-Size: 124799
+Installed-Size: 124802
 Filename: minidlna_2019-12-09-0763719f-6_aarch64_cortex-a53.ipk
-Size: 125597
-SHA256sum: 16c0f17a06c188de83bb99242d664d22abc7e7dd46250ab5a811fe18b8fc318f
+Size: 125651
+SHA256sum: 1140f459584a5dd2e9f92cf5f2cd8bb6d14a6f31d14fbb454d26a6e35a0dd6e5
 Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
  being fully compliant with DLNA/UPnP-AV clients.
 
@@ -938,10 +951,10 @@ Depends: libc
 License: GPL-2.0
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 18036
+Installed-Size: 18037
 Filename: mxml_2.10-1_aarch64_cortex-a53.ipk
-Size: 18647
-SHA256sum: 155c49e21e929c2a7c449f8f7fd6426d96273c8ef4accc801d28b6ee17516d33
+Size: 18653
+SHA256sum: 8357a2695e62338484052256ef8bbce328abf6a133d99fa80c684e366cc2c780
 Description:  A small xml library.
 
 Package: nano
@@ -950,10 +963,10 @@ Depends: libc, libncurses
 License: GPL-3.0-or-later
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 64596
+Installed-Size: 64598
 Filename: nano_5.3-1_aarch64_cortex-a53.ipk
-Size: 65348
-SHA256sum: b5a22bf07d05e634a92b000cd47ffd0bbe9c2880e12dc7c16bfa6c7fbbeb84a3
+Size: 65364
+SHA256sum: a85b5d513cb9a6fc2159e9cdddf4fb03a2c1a078e57d29c319c48bfd8c464c93
 Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
  of the Pico text editor.
 
@@ -963,10 +976,10 @@ Depends: libc, glib2
 License: GPL-2.0+
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 23894
+Installed-Size: 23896
 Filename: nbd-server_3.20-1_aarch64_cortex-a53.ipk
-Size: 24531
-SHA256sum: 4873c37d8fcac2086092637b202dc6c3e127a632697f9c161b74d5e1700c0e84
+Size: 24529
+SHA256sum: 3dee10f53720804beb2ac62098a61b1e212ee1cd6df3ebcd512e464e655b9f2c
 Description:  This package contains the network block device server.
 
 Package: netatalk
@@ -974,10 +987,10 @@ Version: 3.1.11-4
 Depends: libc, libavahi-client, libattr, libdb47, libgcrypt, libopenssl, librpc
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 381317
+Installed-Size: 381328
 Filename: netatalk_3.1.11-4_aarch64_cortex-a53.ipk
-Size: 380236
-SHA256sum: 355cc2d308691cc13a8891616ae446e5e413a3fee3fd2ee7ae494a34ffdf5220
+Size: 380331
+SHA256sum: afa2012c1b8e5481b2e2d93a5fb3bba86bf714c71546cd0519ec8aca48d2304f
 Description:  netatalk
 
 Package: nfs-kernel-server-utils
@@ -985,32 +998,43 @@ Version: 2.3.4-4
 Depends: libc, nfs-kernel-server
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 12547
+Installed-Size: 12551
 Filename: nfs-kernel-server-utils_2.3.4-4_aarch64_cortex-a53.ipk
-Size: 13243
-SHA256sum: b758449d5a4e2a3ca01d396acb2eb72737604c9df4a8342eea933e4a5023e511
+Size: 13261
+SHA256sum: 5679627fc8ec1b169a4e0ff013944ef5a43b997802aef67f41c896c81bbdb631
 Description:  NFS server utils
 
 Package: nfs-kernel-server
 Version: 2.3.4-4
-Depends: libc, libwrap, libblkid, libuuid, libtirpc, kmod-fs-nfsd, kmod-fs-nfs, rpcbind
+Depends: libc, libwrap, libblkid, libuuid, libtirpc, kmod-fs-nfsd, kmod-fs-nfs, kmod-fs-nfs-v4, rpcbind, nfs-utils-libs, libkeyutils, libdevmapper
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 146499
+Installed-Size: 146502
 Filename: nfs-kernel-server_2.3.4-4_aarch64_cortex-a53.ipk
-Size: 147002
-SHA256sum: 38ea359aa4131b8bbab7304eca3b390fae30ed2d4e8a067c51039a8b4bdb64da
+Size: 147034
+SHA256sum: c6ab3ee3ccc00ab06ad40aec8be93808e07b188897a2328904675444fdf9698a
 Description:  Kernel NFS server support
+
+Package: nfs-utils-libs
+Version: 2.3.4-4
+Depends: libc, libwrap, libblkid, libuuid, libtirpc, libkeyutils, libdevmapper
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 15484
+Filename: nfs-utils-libs_2.3.4-4_aarch64_cortex-a53.ipk
+Size: 16201
+SHA256sum: 20db5ad7738886359aaf76af5b12536854000fef482bf921a869eac21c3e1713
+Description:  Libraries provided by nfs-utils
 
 Package: nfs-utils
 Version: 2.3.4-4
-Depends: libc, libwrap, libblkid, libuuid, libtirpc
+Depends: libc, libwrap, libblkid, libuuid, libtirpc, libkeyutils, libdevmapper
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 48909
+Installed-Size: 48911
 Filename: nfs-utils_2.3.4-4_aarch64_cortex-a53.ipk
-Size: 49697
-SHA256sum: ff65a6c733f7f193583fad82d6b3d11926f45c0f06dacb4ec35cfbac5fc092fb
+Size: 49714
+SHA256sum: 514ee65f5381adde67a7d9acf8355ec30c8cc256c2c782a0972c7d165c57b8bb
 Description:  Updated mount.nfs command - allows mounting nfs4 volumes
 
 Package: ntfs-3g-utils
@@ -1019,10 +1043,10 @@ Depends: libc, ntfs-3g, libgcrypt, libuuid
 License: GPL-2.0 LGPL-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 270697
+Installed-Size: 270706
 Filename: ntfs-3g-utils_2017.3.23-1-fuseint_aarch64_cortex-a53.ipk
-Size: 270107
-SHA256sum: c7365854740448ece9fa0779d9bffa115bb6bef93803a128d1631de8d356cbc5
+Size: 270105
+SHA256sum: 49df6d2c5ef13e376e74d23857b35ce5233c94fbbc75c2127e8a934736ce32f9
 Description:  Suite of NTFS utilities for doing neat things with NTFS.
  Contains:
  - mkntfs - Create an NTFS filesystem.
@@ -1046,10 +1070,10 @@ Depends: libc, kmod-fuse, libpthread
 License: GPL-2.0 LGPL-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 167222
+Installed-Size: 167223
 Filename: ntfs-3g_2017.3.23-1-fuseint_aarch64_cortex-a53.ipk
-Size: 168211
-SHA256sum: d51185aa577df1ff1f8dfd4f7ad584c7adc66784c4bc08bf3115c63bf5c48570
+Size: 168221
+SHA256sum: 8282e73367da841f6490566a9a0d62e7e39d5d7a66688c373ebab574b95499c3
 Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
  move files, directories, hard links, and streams. It can read
  and write files, including streams and sparse files. It can
@@ -1070,8 +1094,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 189688
 Filename: smartmontools_6.6-1_aarch64_cortex-a53.ipk
-Size: 190503
-SHA256sum: 798b8317970ace131cab385757f1fcf141dd34bc9f0b955a9fc55fd429a92c08
+Size: 190523
+SHA256sum: 6273acb43c75cf1734d55e141dd8efdbd9560cdeb9b29cbf9eb9ff3144013d76
 Description:  smartmontools contains utility programs (smartctl) to
  control/monitor storage systems using the Self-Monitoring, Analysis
  and Reporting Technology System (S.M.A.R.T.) built into most modern
@@ -1083,10 +1107,10 @@ Depends: libc, libsqlite3, libedit
 License: PUBLICDOMAIN
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 84543
+Installed-Size: 84547
 Filename: sqlite3-cli_3320100-1_aarch64_cortex-a53.ipk
-Size: 85392
-SHA256sum: e65448d2f36edd331f9d6b7259d66763cc06b951eb60c5d5d9c1aaf05e4f95df
+Size: 85333
+SHA256sum: 44a65b66efba4b273eff09f8e8461297b9d89e97510abdf8aaaa4440379e496f
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains a terminal-based front-end to the SQLite (v3.x) library
@@ -1099,10 +1123,10 @@ Depends: libc, libpthread, libaio
 License: GPL-2.0
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 124897
+Installed-Size: 124898
 Filename: tgt_1.0.73-1_aarch64_cortex-a53.ipk
-Size: 125912
-SHA256sum: 9d9a595883d985e9c2b8b5a2f05cda7fa99d32362f6af419600bcf37ebad8450
+Size: 125923
+SHA256sum: 894546dd3e89f5ad4497c3adb192d7580eb874100b768dece8a2cb5476c16922
 Description:  Linux SCSI target framework (tgt) aims to simplify various SCSI target driver (iSCSI, Fibre Channel, SRP, etc) creation and maintenance.
  Key goals of the project are the clean integration into the scsi-mid layer and implementing a great portion of tgt in user space.
  Tgt consists of kernel-space and user-space code. The kernel-space component is included in upstream as of 2.6.20.
@@ -1114,10 +1138,10 @@ Depends: libc, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, z
 License: GPL-2.0-or-later
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 173129
+Installed-Size: 173130
 Filename: transmission-daemon-mbedtls_2.94-streaming-2_aarch64_cortex-a53.ipk
-Size: 174061
-SHA256sum: a199261f311608648ba1c886f6f2b4c29f6dd79789e4e50d6806406d6000d807
+Size: 174063
+SHA256sum: e5a8a542a64b606ff5cbdcd421458c69a283cbb658f9336b3351f80c24bffc7e
 Description:  Transmission is a simple BitTorrent client.
  It features a very simple, intuitive interface
  on top on an efficient, cross-platform back-end.
@@ -1129,10 +1153,10 @@ Depends: libc
 License: GPL-2.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 241581
+Installed-Size: 241578
 Filename: transmission-web_2.94-streaming-2_all.ipk
-Size: 242431
-SHA256sum: 33f13f5ba6f88acc46caaea28fab891b571bf365875f15fc612fbead8554e782
+Size: 242432
+SHA256sum: d41b20cc319ffce827153519f0901bab93b7aa65ba42e452b21fd30515db6add
 Description:  Webinterface resources for transmission.
 
 Package: ttyd
@@ -1141,10 +1165,10 @@ Depends: libc, libopenssl, libjson-c, libuv, zlib, libwebsockets-full
 License: MIT
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 191136
+Installed-Size: 191140
 Filename: ttyd_1.6.0-2_aarch64_cortex-a53.ipk
-Size: 191795
-SHA256sum: 6d59b25092b3d913e3d9ee2c5527f69c346fb9982f63f768ede02dba44b8a6e4
+Size: 191782
+SHA256sum: 3e0d56396855265d2c2eee3cfbcfcf0af25e147d59392e98af3955625bcd0f76
 Description:  ttyd is a command-line tool for sharing terminal over the web.
 
 Package: vnstat
@@ -1152,10 +1176,10 @@ Version: 1.18-1
 Depends: libc
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 71000
+Installed-Size: 71002
 Filename: vnstat_1.18-1_aarch64_cortex-a53.ipk
-Size: 71917
-SHA256sum: 41df6a62707259414e3f68e389ea335d80d2526bbe76bb3db6cdcfd44d03605e
+Size: 71916
+SHA256sum: d13480ae0eb398c0f3a0ab1d0443521393474630a17acfcae69e0e2820c73709
 Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
  network traffic for the selected interface(s). vnStat isn't a packet
  sniffer. The traffic information is analyzed from the /proc -filesystem,
@@ -1166,10 +1190,10 @@ Version: 1.18-1
 Depends: libc, vnstat, libgd
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 31448
+Installed-Size: 31451
 Filename: vnstati_1.18-1_aarch64_cortex-a53.ipk
-Size: 32245
-SHA256sum: 7674cc267fe218dd4a246a48ca141800553d7656bf2f0535c8f5fcb4bfe088a7
+Size: 32248
+SHA256sum: 5b02668f39b37c9e5e6d5082bd5cd89fe0b09f31546d84827b27b9ad46c6c4df
 Description:  The purpose of vnstati is to provide image output support for statistics
  collected using vnstat(1). However, the image file format is limited to
  png. All basic outputs of vnStat are supported excluding live traffic
@@ -1182,10 +1206,10 @@ Depends: libc, libpam, libopenssl
 License: GPLv2
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 46066
+Installed-Size: 46070
 Filename: vsftpd-tls_3.0.3-2_aarch64_cortex-a53.ipk
-Size: 46794
-SHA256sum: 3753eb7a1f499fe8da88d368181e77535700bcbc5f167f19d76b285d31ba6978
+Size: 46800
+SHA256sum: 552522140e9cf077e2435133bb68266b77f0049a6505b81f2bd8a5ff0c2ab47d
 Description:  Fast and secure FTP server (TLS)
 
 Package: webui-aria2
@@ -1194,10 +1218,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 913512
+Installed-Size: 913510
 Filename: webui-aria2_2017-05-21-d1ce5b99-1_all.ipk
-Size: 913873
-SHA256sum: 85e2053b27a4434ab777514e5fb059e28b14f313812b50905be095baa5247a0a
+Size: 913868
+SHA256sum: 303c75ef1eefd7ed9d8af6e908280302c458033d3abe52c5c76e7c7c78bbc61e
 Description:  The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use.
 
 Package: wget
@@ -1207,10 +1231,10 @@ Provides: gnu-wget, wget-ssl
 License: GPL-3.0+
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 198962
+Installed-Size: 198963
 Filename: wget_1.19.5-6_aarch64_cortex-a53.ipk
-Size: 199676
-SHA256sum: 0d6a985c67fdd7e7dff22222ab60eae559a4d482b610fafedf345c38f4b0573f
+Size: 199669
+SHA256sum: 015735f586a696c54a0929d02b899e14075ed31e00e423cce606d284c8a78e92
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -1225,9 +1249,9 @@ Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 317052
+Installed-Size: 317057
 Filename: zerotier_1.2.12-3_aarch64_cortex-a53.ipk
-Size: 316955
-SHA256sum: f7addbc831147d4035073bca1e6a91eca6f19963f732181b2e47d64d5df6f6eb
+Size: 316972
+SHA256sum: eb7142b11ff15db4cfef19d47832aa6bb69fed94ced8f25c1c299b8de17455d7
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
